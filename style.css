@@ -1,0 +1,96 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color:rgb(238, 232, 237);
+    font-size:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 160%;
+    text-align: center;
+}
+
+h2{
+    font-size:130%;
+    text-align:left;
+}
+
+article{
+    background-color:rgb(233, 211, 214);
+    width:75%;
+    padding:1em;
+}
+
+footer{
+    text-align: center;
+    color:black;
+    font-size: 100%;
+}
+
+ul{
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 120%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.nails{
+    float:inherit;
+}
+
+.hsfi{
+    width:300px;
+    height:240px;
+    margin:10px;
+    float:right
+}
+
+ol{
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 120%;
+}
+
+.pets{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sports{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gym{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:53%;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+.warby{
+    width:300px;
+    height:240px;
+    margin:10px;
+    
+}
